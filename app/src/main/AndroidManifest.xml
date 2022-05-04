@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PageAccueil">
         <activity
+            android:name=".ecrans_test"
+            android:exported="false" />
+        <activity
+            android:name=".choix_destination"
+            android:exported="false" />
+        <activity
+            android:name=".page_Paris"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
