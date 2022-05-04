@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PageAccueil</string>
+    <string name="alpes">Alpes</string>
+    <string name="atlantique">Atlantique</string>
+    <string name="paris">Paris</string>
+    <string name="c_te_d_azur">Côte d\'Azur</string>
+
+    <string-array name="Jours">
+        <item>Jour1</item>
+        <item>Jour2</item>
+        <item>Jour3</item>
+    </string-array>
+</resources>
+
