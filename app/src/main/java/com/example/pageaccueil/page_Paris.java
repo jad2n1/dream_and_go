@@ -36,6 +36,8 @@ public class page_Paris extends AppCompatActivity{
 
         // 4) Association de adapter au spinner
         monSpinner.setAdapter(monAdapter);
+
+        // exemple de commentaire vide
     }
 }
 
