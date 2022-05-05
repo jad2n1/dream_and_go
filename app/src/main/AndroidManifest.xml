@@ -25,6 +25,9 @@
             android:name=".page_Alpes"
             android:exported="false" />
         <activity
+            android:name=".page_CoteAzur"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
