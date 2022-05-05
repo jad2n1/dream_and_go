@@ -4,6 +4,7 @@
     <string name="atlantique">Atlantique</string>
     <string name="paris">Paris</string>
     <string name="c_te_d_azur">Côte d\'Azur</string>
+    <string name="retour">Retour</string>
 
     <string-array name="Jours">
         <item>Jour1</item>
