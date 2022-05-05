@@ -19,6 +19,9 @@
             android:name=".page_Paris"
             android:exported="false" />
         <activity
+            android:name=".page_Atlantique"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
