@@ -39,7 +39,7 @@ public class choix_destination extends AppCompatActivity {
         Bouton_cotedazur = (Button) findViewById(R.id.btn_cotedazur);
 
         // ajout des écouteurs : quand on va cliqueur sur un bouton on va charger l'activité associée
-        // ajout de l'écouteur sur boutonAjouterEtudiant
+        // ajout de l'écouteur sur Bouton_Alpes
 
         Bouton_Alpes.setOnClickListener(new OnClickListener() {
             @Override
