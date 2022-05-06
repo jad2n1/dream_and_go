@@ -8,20 +8,22 @@
     android:background="@drawable/dreamandgobackground"
     >
 
+
     <Button
         android:id="@+id/bienvenue"
         android:layout_width="149dp"
         android:layout_height="57dp"
-        android:background="#FFFFFF"
+        android:background="@drawable/bouton_rond"
         android:text="Bienvenue :)"
-        app:backgroundTint="#2196F3"
+        android:textColor="#2196F3"
+        app:backgroundTint="#FFFFFF"
         app:iconTint="#22232B"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.477"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.529" />
+        app:layout_constraintVertical_bias="0.805"
+        tools:ignore="TextContrastCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
