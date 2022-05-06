@@ -12,20 +12,29 @@
         android:layout_marginTop="168dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="59dp"
-        android:layout_height="48dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:inputType="textPersonName"
+    <Button
+        android:id="@+id/btn_retour_paris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/retour"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_jours" />
+
+    <TextView
+        android:id="@+id/texte_paris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/paris"
+        android:textSize="40sp"
+        android:textColor="#2196F3"
         app:layout_constraintBottom_toTopOf="@+id/spinner_jours"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="LabelFor" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

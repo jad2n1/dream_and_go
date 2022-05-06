@@ -18,6 +18,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class page_Paris extends AppCompatActivity{
+    Button Bouton_Paris_retour;
 
 
     @Override
@@ -38,6 +39,15 @@ public class page_Paris extends AppCompatActivity{
         // 4) Association de adapter au spinner
         monSpinner.setAdapter(monAdapter);
         // exemple de commentaire vide
+        Bouton_Paris_retour = (Button) findViewById(R.id.btn_retour_paris);
+
+        Bouton_Paris_retour.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // ouverture de l'activité
+                finish();
+            }
+        });
     }
 }
 

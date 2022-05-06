@@ -25,4 +25,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_jours2" />
+
+    <TextView
+        android:id="@+id/texte_atlantique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/atlantique"
+        android:textSize="40sp"
+        android:textColor="#2196F3"
+        app:layout_constraintBottom_toTopOf="@+id/spinner_jours2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
