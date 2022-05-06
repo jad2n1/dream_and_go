@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/bacgroudchxdest"
     >
 
 
@@ -17,39 +17,55 @@
         android:text="@string/alpes"
         app:layout_constraintBottom_toTopOf="@+id/btn_Atlantique"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.785" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/btn_Atlantique"
         android:layout_width="187dp"
         android:layout_height="92dp"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="32dp"
         android:text="@string/atlantique"
         app:layout_constraintBottom_toTopOf="@+id/btn_cotedazur"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn_paris"
         android:layout_width="187dp"
         android:layout_height="92dp"
-        android:layout_marginBottom="116dp"
+        android:layout_marginBottom="48dp"
         android:text="@string/paris"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn_cotedazur"
         android:layout_width="187dp"
         android:layout_height="92dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="44dp"
         android:text="@string/c_te_d_azur"
         app:layout_constraintBottom_toTopOf="@+id/btn_paris"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/texte_chxdest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Choix destination"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
