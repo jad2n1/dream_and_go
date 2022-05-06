@@ -18,7 +18,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class page_Paris extends AppCompatActivity{
-TextView window_result;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,27 +37,6 @@ TextView window_result;
 
         // 4) Association de adapter au spinner
         monSpinner.setAdapter(monAdapter);
-
-        monSpinner.setOnApplyWindowInsetsListener(new AdapterView.OnItemClickListener() {
-            // placement d'écouteurs sur les différents jours du spinner
-
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                String choix_jours= parent.getSelectedItem().toString();
-            if (choix_jours== "Jour1"){
-                @Override
-                public void onClick(View view) {
-                    // ouverture de l'activité
-                    Intent intent = new Intent(choix_destination.this, page_Alpes.class);
-                    startActivity(intent);
-                }
-            }
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-            } //si rien n'est selectionné
-        } );
         // exemple de commentaire vide
     }
 }
