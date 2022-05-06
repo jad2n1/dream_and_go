@@ -38,8 +38,7 @@ public class page_Atlantique extends AppCompatActivity{
             @Override
             public void onClick(View view) {
                 // ouverture de l'activité
-                Intent intent = new Intent(page_Atlantique.this, choix_destination.class);
-                startActivity(intent);
+                finish();
             }
         });
     }

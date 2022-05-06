@@ -38,8 +38,8 @@ public class page_Alpes extends AppCompatActivity{
             @Override
             public void onClick(View view) {
                 // ouverture de l'activité
-                Intent intent = new Intent(page_Alpes.this, choix_destination.class);
-                startActivity(intent);
+
+                finish();
             }
         });
     }

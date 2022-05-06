@@ -36,8 +36,8 @@ public class page_CoteAzur extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // ouverture de l'activité
-                Intent intent = new Intent(page_CoteAzur.this, choix_destination.class);
-                startActivity(intent);
+
+                finish();
             }
         });
     }
