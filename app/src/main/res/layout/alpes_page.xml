@@ -12,7 +12,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146" />
 
     <Button
         android:id="@+id/btn_retour_alpes"
@@ -22,7 +23,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_jours3" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner_jours3"
+        app:layout_constraintVertical_bias="0.933" />
 
     <TextView
         android:id="@+id/texte_alpes"
@@ -32,5 +34,55 @@
         app:layout_constraintBottom_toTopOf="@+id/spinner_jours3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.194" />
+
+    <TextView
+        android:id="@+id/text_matin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:layout_marginBottom="165dp"
+        android:text="@string/Matin"
+        app:layout_constraintBottom_toBottomOf="@+id/cadre_matni"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spinner_jours3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text_aprem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Après-midi"
+        app:layout_constraintBottom_toTopOf="@+id/cadre_aprem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cadre_matni" />
+
+    <TextView
+        android:id="@+id/cadre_matni"
+        android:layout_width="357dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="96dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_jours3" />
+
+    <TextView
+        android:id="@+id/cadre_aprem"
+        android:layout_width="347dp"
+        android:layout_height="143dp"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/btn_retour_alpes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cadre_matni"
+        app:layout_constraintVertical_bias="0.715" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

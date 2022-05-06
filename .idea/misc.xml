@@ -11,12 +11,11 @@
         <entry key="app/src/main/res/layout/alpes_page.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/atlantique_page.xml" value="0.25" />
         <entry key="app/src/main/res/layout/choix_destination.xml" value="0.20257110595703093" />
-        <entry key="app/src/main/res/layout/page_atlantique.xml" value="0.175" />
         <entry key="app/src/main/res/layout/paris_page.xml" value="0.3098958333333333" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
