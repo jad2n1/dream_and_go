@@ -12,7 +12,6 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class page_Alpes extends AppCompatActivity{
-
     Button Bouton_Alpes_retour;
 
     @Override
@@ -74,9 +73,15 @@ public class page_Alpes extends AppCompatActivity{
                                          public void onClick(View view) {
                                              // ouverture de l'activité
                                              Intent intent = new Intent(page_Alpes.this, Carte.class);
+                                             String carte="carte_Alpes";
+                                             intent.putExtra("nom_cartes",carte);
                                              startActivity(intent);
                                          }
                                      });
+
+
+
+
 
         // Création du bouton retour
         Bouton_Alpes_retour = (Button) findViewById(R.id.btn_retour_alpes);
