@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PageAccueil">
         <activity
+            android:name=".Carte"
+            android:exported="false" />
+        <activity
             android:name=".ecrans_test"
             android:exported="false" />
         <activity

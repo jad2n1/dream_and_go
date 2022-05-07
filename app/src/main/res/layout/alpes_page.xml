@@ -22,9 +22,10 @@
         android:text="@string/retour"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_jours3"
-        app:layout_constraintVertical_bias="0.933" />
+        app:layout_constraintVertical_bias="0.943" />
 
     <TextView
         android:id="@+id/texte_alpes"
@@ -84,5 +85,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cadre_matni"
         app:layout_constraintVertical_bias="0.715" />
+
+    <Button
+        android:id="@+id/btn_carte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_jours3"
+        app:layout_constraintVertical_bias="0.943"
+        tools:layout_editor_absoluteX="287dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

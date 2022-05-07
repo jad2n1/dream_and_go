@@ -24,6 +24,7 @@ public class page_Alpes extends AppCompatActivity{
         Spinner monSpinner3 = (Spinner) findViewById(R.id.spinner_jours3);
         TextView Text_Mat = (TextView) findViewById(R.id.cadre_matni);
         TextView Text_Ap = (TextView) findViewById(R.id.cadre_aprem);
+        Button Btn_Carte=(Button) findViewById(R.id.btn_carte);
 
 // 2) creation d’un ArrayAdapter à partir de tab_pokemon et mise en forme par defaut
         ArrayAdapter<CharSequence> monAdapter = ArrayAdapter.createFromResource (this,
@@ -43,16 +44,27 @@ public class page_Alpes extends AppCompatActivity{
                 if (choix_jours.equals("Jour1")){
                     Text_Mat.setText("Visite de Chamonix");
                     Text_Ap.setText("Aiguille du midi");
+
                 }
                 if (choix_jours.equals("Jour2")){
-                    Text_Mat.setText("Visite de Chamonix");
-                    Text_Ap.setText("Aiguille du midi");
+                    Text_Mat.setText("A");
+                    Text_Ap.setText("B");
                 }
                 if (choix_jours.equals("Jour3")){
-                    Text_Mat.setText("Visite de Chamonix");
-                    Text_Ap.setText("Aiguille du midi");
+                    Text_Mat.setText("C");
+                    Text_Ap.setText("D");
                 }
-            }
+
+                Btn_Carte.setOnClickListener(new View.OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        // ouverture de l'activité
+                        Intent intent = new Intent(page_Alpes.this, Carte.class);
+                        startActivity(intent);
+                    }
+            }}
 
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
