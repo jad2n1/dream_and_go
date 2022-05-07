@@ -55,16 +55,7 @@ public class page_Alpes extends AppCompatActivity{
                     Text_Ap.setText("D");
                 }
 
-                Btn_Carte.setOnClickListener(new View.OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        // ouverture de l'activité
-                        Intent intent = new Intent(page_Alpes.this, Carte.class);
-                        startActivity(intent);
-                    }
-            }}
+               }
 
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
@@ -74,8 +65,18 @@ public class page_Alpes extends AppCompatActivity{
             //monSpinner3.setOnItemClickListener(new AdapterView.OnItemClickListener() {
         });
 
+// Bouton pour accéder à la carte
+
+        Btn_Carte.setOnClickListener(new View.OnClickListener() {
 
 
+                                         @Override
+                                         public void onClick(View view) {
+                                             // ouverture de l'activité
+                                             Intent intent = new Intent(page_Alpes.this, Carte.class);
+                                             startActivity(intent);
+                                         }
+                                     });
 
         // Création du bouton retour
         Bouton_Alpes_retour = (Button) findViewById(R.id.btn_retour_alpes);
