@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/alpes"
     android:layout_height="match_parent">
 
     <Spinner
@@ -33,7 +34,7 @@
         android:layout_height="wrap_content"
         android:textSize="40sp"
         android:text="@string/alpes"
-        android:textColor="#101213"
+        android:textColor="#2196F3"
         app:layout_constraintBottom_toTopOf="@+id/spinner_jours3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,7 +49,7 @@
         android:layout_marginBottom="165dp"
         android:textStyle="bold"
         android:textSize="15dp"
-        android:textColor="#101213"
+        android:textColor="#2196F3"
         android:text="@string/Matin"
         app:layout_constraintBottom_toBottomOf="@+id/cadre_matni"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,7 +64,7 @@
         android:layout_height="wrap_content"
         android:text="Après-midi"
         android:textStyle="bold"
-        android:textColor="#101213"
+        android:textColor="#2196F3"
         android:textSize="15dp"
         app:layout_constraintBottom_toTopOf="@+id/cadre_aprem"
         app:layout_constraintEnd_toEndOf="parent"

@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/atlantique"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -14,7 +15,7 @@
         app:layout_constraintHorizontal_bias="0.442"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.216"
+        app:layout_constraintVertical_bias="0.166"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
@@ -46,6 +47,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Matin"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#2196F3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.111"
@@ -57,13 +61,17 @@
         android:id="@+id/txt_aprem_atlantique"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aprem"
+        android:text="Après-midi"
+        android:textColor="#2196F3"
+        android:textSize="15dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintHorizontal_bias="0.086"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_jours2"
-        app:layout_constraintVertical_bias="0.554" />
+        app:layout_constraintVertical_bias="0.496" />
+
     <TextView
         android:id="@+id/texte_atlantique"
         android:layout_width="wrap_content"
@@ -91,7 +99,7 @@
         android:id="@+id/cadre_aprem_Atlantique"
         android:layout_width="321dp"
         android:layout_height="139dp"
-        android:layout_marginTop="304dp"
+        android:layout_marginTop="276dp"
         android:text=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.322"
