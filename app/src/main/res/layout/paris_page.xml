@@ -22,8 +22,22 @@
         android:text="@string/retour"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_jours" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner_jours"
+        app:layout_constraintVertical_bias="0.933" />
+
+    <Button
+        android:id="@+id/btn_carte_Paris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/carte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_jours"
+        app:layout_constraintVertical_bias="0.933" />
 
     <TextView
         android:id="@+id/texte_paris"
@@ -36,5 +50,53 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/txt_matin_paris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_jours"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <TextView
+        android:id="@+id/txt_aprem_paris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aprem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_jours"
+        app:layout_constraintVertical_bias="0.554" />
+
+    <TextView
+        android:id="@+id/cadre_matin_Paris"
+        android:layout_width="321dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="80dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_jours" />
+
+    <TextView
+        android:id="@+id/cadre_aprem_Paris"
+        android:layout_width="321dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="304dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_jours" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
