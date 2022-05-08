@@ -6,6 +6,7 @@
     <string name="c_te_d_azur">Côte d\'Azur</string>
     <string name="retour">Retour</string>
     <string name="Matin">Matin</string>
+    <string name="carte">carte</string>
 
     <string-array name="Jours">
         <item>Jour1</item>
