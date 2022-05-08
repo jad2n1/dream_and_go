@@ -84,7 +84,7 @@
 
     <TextView
         android:id="@+id/cadre_aprem"
-        android:layout_width="347dp"
+        android:layout_width="357dp"
         android:layout_height="143dp"
         android:text=""
         app:layout_constraintBottom_toTopOf="@+id/btn_retour_alpes"

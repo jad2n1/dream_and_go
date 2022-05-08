@@ -13,7 +13,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.273"
+        app:layout_constraintVertical_bias="0.161"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
@@ -45,6 +45,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Matin"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#101213"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.111"
@@ -56,13 +59,17 @@
         android:id="@+id/txt_aprem_coteAzur"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aprem"
+        android:text="Après-midi"
+        android:textColor="#101213"
+        android:textSize="15dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintHorizontal_bias="0.097"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_jours4"
-        app:layout_constraintVertical_bias="0.554" />
+        app:layout_constraintVertical_bias="0.501" />
+
     <TextView
         android:id="@+id/texte_coteazur"
         android:layout_width="wrap_content"
@@ -92,7 +99,7 @@
         android:id="@+id/cadre_aprem_coteAzur"
         android:layout_width="321dp"
         android:layout_height="139dp"
-        android:layout_marginTop="304dp"
+        android:layout_marginTop="300dp"
         android:text=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.322"

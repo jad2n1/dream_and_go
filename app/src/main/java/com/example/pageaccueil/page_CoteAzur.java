@@ -42,17 +42,21 @@ public class page_CoteAzur extends AppCompatActivity {
 
                 String choix_jours= parent.getSelectedItem().toString();
                 if (choix_jours.equals("Jour1")){
-                    Text_Mat_coteAzur.setText("Visite de Chamonix");
-                    Text_Ap_coteAzur.setText("Aiguille du midi");
+                    Text_Mat_coteAzur.setText("Pendant la matinée visite de Monaco et de son musée océanographique puis déjeuner " +
+                            "au restaurant A’trego élaboré par Philipe Starck. ");
+                    Text_Ap_coteAzur.setText("Au programme de l’après-midi, une balade sur le sentier du littoral de Saint Jean cap Ferrat.");
 
                 }
                 if (choix_jours.equals("Jour2")){
-                    Text_Mat_coteAzur.setText("A");
-                    Text_Ap_coteAzur.setText("B");
+                    Text_Mat_coteAzur.setText("Découverte de la ville de Cannes le matin. Prendre le bateau à destination des iles de Lérins afin de " +
+                            "découvrir le paysage et de se baigner dans les eaux turquoise de la Côte d’Azur. ");
+                    Text_Ap_coteAzur.setText("Passer la fin de journée à visiter la vieille ville d’Antibes.");
                 }
                 if (choix_jours.equals("Jour3")){
-                    Text_Mat_coteAzur.setText("C");
-                    Text_Ap_coteAzur.setText("D");
+                    Text_Mat_coteAzur.setText("Visite à pied de la vieille ville et du port de Nice le matin" +
+                            ", prendre une glace dans le célèbre glacier Nicois Fenoccio");
+                    Text_Ap_coteAzur.setText("l’après-midi sur la plage ou faire du shopping. Profiter du coucher de soleil en prenant l’apéro " +
+                            "sur le rooftop du Méridien sur la promenade des Anglais.");
                 }
 
             }
