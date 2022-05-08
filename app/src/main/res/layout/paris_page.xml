@@ -53,7 +53,7 @@
 
 
     <TextView
-        android:id="@+id/txt_matin_paris"
+        android:id="@+id/txt_matin_Atlantique"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Matin"
@@ -65,7 +65,7 @@
         app:layout_constraintVertical_bias="0.074" />
 
     <TextView
-        android:id="@+id/txt_aprem_paris"
+        android:id="@+id/txt_aprem_atlantique"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Aprem"
