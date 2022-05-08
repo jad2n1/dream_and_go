@@ -49,17 +49,18 @@ public class page_Paris extends AppCompatActivity{
 
             String choix_jours= parent.getSelectedItem().toString();
             if (choix_jours.equals("Jour1")){
-                Text_Mat_Paris.setText("Visite de Chamonix");
-                Text_Aprem_Paris.setText("Aiguille du midi");
+                Text_Mat_Paris.setText("Petit déjeuné croissant café en terrasse Visite du musée du Louvre avec guide le matin.");
+                Text_Aprem_Paris.setText("Croisière d’une heure sur la Seine l’après-midi et balade dans Montmartre.");
 
             }
             if (choix_jours.equals("Jour2")){
-                Text_Mat_Paris.setText("A");
-                Text_Aprem_Paris.setText("B");
+                Text_Mat_Paris.setText("Visite de la tour Eiffel le matin");
+                Text_Aprem_Paris.setText("Déjeuner plus balade aux jardins des tuileries puis profiter du " +
+                        "spectacle de cabaret du Moulin Rouge en fin de journée.");
             }
             if (choix_jours.equals("Jour3")){
-                Text_Mat_Paris.setText("C");
-                Text_Aprem_Paris.setText("D");
+                Text_Mat_Paris.setText("Visite guidée de Versailles ");
+                Text_Aprem_Paris.setText("Aller voir un balais dans le somptueux Opéra Garnier");
             }
 
         }
