@@ -24,10 +24,10 @@
         android:text="@string/retour"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintHorizontal_bias="0.327"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_jours4"
-        app:layout_constraintVertical_bias="0.905" />
+        app:layout_constraintVertical_bias="0.933" />
 
     <Button
         android:id="@+id/btn_carte_CoteAzur"
@@ -36,7 +36,7 @@
         android:text="@string/carte"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintHorizontal_bias="0.752"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_jours4"
         app:layout_constraintVertical_bias="0.933" />
@@ -98,13 +98,15 @@
 
     <TextView
         android:id="@+id/cadre_aprem_coteAzur"
-        android:layout_width="321dp"
-        android:layout_height="139dp"
+        android:layout_width="357dp"
+        android:layout_height="143dp"
         android:layout_marginTop="300dp"
         android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/btn_retour_coteazur"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintHorizontal_bias="0.562"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.715"
         app:layout_constraintTop_toBottomOf="@+id/spinner_jours4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

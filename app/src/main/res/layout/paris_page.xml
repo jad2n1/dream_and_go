@@ -23,10 +23,10 @@
         android:text="@string/retour"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintHorizontal_bias="0.251"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_jours"
-        app:layout_constraintVertical_bias="0.933" />
+        app:layout_constraintVertical_bias="0.934" />
 
     <Button
         android:id="@+id/btn_carte_Paris"
@@ -35,10 +35,10 @@
         android:text="@string/carte"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintHorizontal_bias="0.777"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_jours"
-        app:layout_constraintVertical_bias="0.933" />
+        app:layout_constraintVertical_bias="0.934" />
 
     <TextView
         android:id="@+id/texte_paris"
@@ -90,7 +90,7 @@
         android:layout_marginTop="96dp"
         android:text=""
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_jours" />
 
@@ -100,10 +100,12 @@
         android:layout_height="143dp"
         android:layout_marginTop="304dp"
         android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/btn_retour_paris"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintHorizontal_bias="0.562"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_jours" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner_jours"
+        app:layout_constraintVertical_bias="0.715" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
