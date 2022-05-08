@@ -41,17 +41,21 @@ public class page_Alpes extends AppCompatActivity{
 
                 String choix_jours= parent.getSelectedItem().toString();
                 if (choix_jours.equals("Jour1")){
-                    Text_Mat.setText("Visite de Chamonix");
-                    Text_Ap.setText("Aiguille du midi");
+                    Text_Mat.setText("Visite du centre de Chamonix en passant par le musée des cristaux," +
+                            " déjeuner au centre-ville pour profiter de la vue sur le mont blanc");
+                    Text_Ap.setText("vol en parapente pour une expérience à couper le souffle puis" +
+                            " relaxation au spa de Chamonix. ");
 
                 }
                 if (choix_jours.equals("Jour2")){
-                    Text_Mat.setText("A");
-                    Text_Ap.setText("B");
+                    Text_Mat.setText("Balade du côté des Gorges de la Diozaz et ses 5 cascades. ");
+                    Text_Ap.setText("prendre le téléférique pour l’Aiguille du midi et profiter d’une montée" +
+                            " d’adrénaline, direction « le pas dans le vide »");
                 }
                 if (choix_jours.equals("Jour3")){
-                    Text_Mat.setText("C");
-                    Text_Ap.setText("D");
+                    Text_Mat.setText("Départ de Chamonix-Mont-Blanc en direction de la mer de glace à bord du train de Montenvers," +
+                            " visite de la grotte, balade pour admirer la vue panoramique,");
+                    Text_Ap.setText("déjeuner à Chamonix ville puis route vers l’accrobranche au Lac Blanc Découvertes.");
                 }
 
                }
