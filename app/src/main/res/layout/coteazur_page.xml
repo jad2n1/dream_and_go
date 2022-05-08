@@ -31,8 +31,8 @@
 
     <Button
         android:id="@+id/btn_carte_CoteAzur"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="88dp"
+        android:layout_height="47dp"
         android:text="@string/carte"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,13 +77,13 @@
         android:layout_height="wrap_content"
         android:text="@string/c_te_d_azur"
         android:textColor="#2196F3"
-        android:textSize="40sp"
+        android:textSize="40dp"
         app:layout_constraintBottom_toTopOf="@+id/spinner_jours4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.349"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.333" />
+        app:layout_constraintVertical_bias="0.29" />
 
     <TextView
         android:id="@+id/cadre_matin_coteAzur"

@@ -77,12 +77,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/atlantique"
-        android:textSize="40sp"
         android:textColor="#2196F3"
+        android:textSize="40dp"
         app:layout_constraintBottom_toTopOf="@+id/spinner_jours2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.449"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49" />
 
     <TextView
         android:id="@+id/cadre_matin_Atlantique"
@@ -97,12 +99,13 @@
 
     <TextView
         android:id="@+id/cadre_aprem_Atlantique"
-        android:layout_width="321dp"
-        android:layout_height="139dp"
+        android:layout_width="357dp"
+        android:layout_height="143dp"
         android:layout_marginTop="276dp"
         android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/btn_retour_atlantique"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintHorizontal_bias="0.562"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_jours2" />
 
