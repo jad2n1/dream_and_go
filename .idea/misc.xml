@@ -12,6 +12,8 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3158004760742187" />
         <entry key="app/src/main/res/layout/choix_destination.xml" value="0.20257110595703093" />
         <entry key="app/src/main/res/layout/paris_page.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.17" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.17" />
       </map>
     </option>
   </component>
