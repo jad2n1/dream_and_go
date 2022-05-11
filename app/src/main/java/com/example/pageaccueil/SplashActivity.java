@@ -49,9 +49,9 @@ Handler montimer;
 
         }
 
-    }
-    public void startActivity(Intent intent) {
-        Intent intent=new Intent(SplashActivity.this, MainActivity.class); )
-        super.startActivity(intent);
-    }
+
+   // public void startActivity(Intent intent) {
+    //    Intent intent=new Intent(SplashActivity.this, MainActivity.class); )
+     //   super.startActivity(intent);
+   // }
 }
