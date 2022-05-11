@@ -20,10 +20,10 @@ public class Carte extends AppCompatActivity {
         TextView  Nom_destination = (TextView) findViewById(R.id.nom_destination);
             Bundle extra=getIntent().getExtras();
 
-String carte = extra.getString("carte");
+String carte = extra.getString("nom_cartes");
 
 
-        if (carte.equals("Alpes")){
+        if (carte.equals("carte_Alpes")){
             Nom_destination.setText("Alpes");
         }
         if (carte.equals("Atlantique")){
