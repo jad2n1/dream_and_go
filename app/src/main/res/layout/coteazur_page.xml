@@ -3,17 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/coteazur"
     android:layout_height="match_parent">
 
     <Spinner
         android:id="@+id/spinner_jours4"
-        android:layout_width="345dp"
-        android:layout_height="61dp"
+        android:layout_width="313dp"
+        android:layout_height="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.377"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.273"
+        app:layout_constraintVertical_bias="0.163"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
@@ -23,19 +25,19 @@
         android:text="@string/retour"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintHorizontal_bias="0.327"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_jours4"
-        app:layout_constraintVertical_bias="0.905" />
+        app:layout_constraintVertical_bias="0.933" />
 
     <Button
         android:id="@+id/btn_carte_CoteAzur"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="88dp"
+        android:layout_height="47dp"
         android:text="@string/carte"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintHorizontal_bias="0.752"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_jours4"
         app:layout_constraintVertical_bias="0.933" />
@@ -45,37 +47,43 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Matin"
+        android:textColor="#2196F3"
+        android:textSize="20dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintHorizontal_bias="0.077"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_jours4"
-        app:layout_constraintVertical_bias="0.074" />
+        app:layout_constraintVertical_bias="0.073" />
 
     <TextView
         android:id="@+id/txt_aprem_coteAzur"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aprem"
+        android:text="Après-midi"
+        android:textColor="#2196F3"
+        android:textSize="20dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintHorizontal_bias="0.086"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_jours4"
-        app:layout_constraintVertical_bias="0.554" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner_jours4" />
+
     <TextView
         android:id="@+id/texte_coteazur"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/c_te_d_azur"
         android:textColor="#2196F3"
-        android:textSize="40sp"
+        android:textSize="40dp"
         app:layout_constraintBottom_toTopOf="@+id/spinner_jours4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.349"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.333" />
+        app:layout_constraintVertical_bias="0.29" />
 
     <TextView
         android:id="@+id/cadre_matin_coteAzur"
@@ -83,6 +91,7 @@
         android:layout_height="139dp"
         android:layout_marginTop="80dp"
         android:text=""
+        android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.322"
         app:layout_constraintStart_toStartOf="parent"
@@ -90,13 +99,16 @@
 
     <TextView
         android:id="@+id/cadre_aprem_coteAzur"
-        android:layout_width="321dp"
-        android:layout_height="139dp"
-        android:layout_marginTop="304dp"
+        android:layout_width="357dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="300dp"
         android:text=""
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_retour_coteazur"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_jours4" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner_jours4"
+        app:layout_constraintVertical_bias="0.324" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

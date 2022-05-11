@@ -41,17 +41,18 @@ public class page_Atlantique extends AppCompatActivity{
 
                 String choix_jours= parent.getSelectedItem().toString();
                 if (choix_jours.equals("Jour1")){
-                    Text_Mat_Atlantique.setText("Visite de Chamonix");
-                    Text_Ap_Atlantique.setText("Aiguille du midi");
+                    Text_Mat_Atlantique.setText("Apprendre à surfer sur la mythique plage de la côte des basques à Biarritz. ");
+                    Text_Ap_Atlantique.setText("Se promener dans le centre-ville sans oublier de gouter la spécialité de la région, le gâteau basque.");
 
                 }
                 if (choix_jours.equals("Jour2")){
-                    Text_Mat_Atlantique.setText("A");
-                    Text_Ap_Atlantique.setText("B");
+                    Text_Mat_Atlantique.setText("Découvrir la dune du Pyla et visite d’Arcachon. ");
+                    Text_Ap_Atlantique.setText("Le midi, déguster un plateau de fruit de mer avec les huitres provenant " +
+                            "directement du bassin puis se promener dans cap Ferret l’après-midi.");
                 }
                 if (choix_jours.equals("Jour3")){
-                    Text_Mat_Atlantique.setText("C");
-                    Text_Ap_Atlantique.setText("D");
+                    Text_Mat_Atlantique.setText("Visite de Bordeaux et de son ancienne base sous-marine.");
+                    Text_Ap_Atlantique.setText("Profiter de la fin de journée pour faire une dégustation de vin au château Pape Clément.");
                 }
 
             }
