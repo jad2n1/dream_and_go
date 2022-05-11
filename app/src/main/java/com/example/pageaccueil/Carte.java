@@ -26,6 +26,12 @@ String carte = extra.getString("carte");
         if (carte.equals("Alpes")){
             Nom_destination.setText("Alpes");
         }
+        if (carte.equals("Atlantique")){
+            Nom_destination.setText("Atlantique");
+        }
+        if (carte.equals("Paris")){
+            Nom_destination.setText("Paris");
+        }
 else {
             Nom_destination.setText("non");
         }
