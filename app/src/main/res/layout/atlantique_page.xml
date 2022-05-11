@@ -47,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Matin"
-        android:textColor="#2196F3"
+        android:textColor="#0B63AA"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -62,7 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Après-midi"
-        android:textColor="#2196F3"
+        android:textColor="#0B63AA"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -77,14 +77,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/atlantique"
-        android:textColor="#2196F3"
+        android:textColor="#0B63AA"
         android:textSize="40dp"
         app:layout_constraintBottom_toTopOf="@+id/spinner_jours2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintHorizontal_bias="0.388"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.49" />
+        app:layout_constraintVertical_bias="0.491" />
 
     <TextView
         android:id="@+id/cadre_matin_Atlantique"

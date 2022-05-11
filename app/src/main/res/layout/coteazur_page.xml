@@ -47,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Matin"
-        android:textColor="#2196F3"
+        android:textColor="#0B63AA"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -62,7 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Après-midi"
-        android:textColor="#2196F3"
+        android:textColor="#0B63AA"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -76,14 +76,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/c_te_d_azur"
-        android:textColor="#2196F3"
+        android:textColor="#0B63AA"
         android:textSize="40dp"
         app:layout_constraintBottom_toTopOf="@+id/spinner_jours4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintHorizontal_bias="0.325"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.29" />
+        app:layout_constraintVertical_bias="0.482" />
 
     <TextView
         android:id="@+id/cadre_matin_coteAzur"

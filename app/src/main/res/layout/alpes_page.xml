@@ -32,14 +32,15 @@
         android:id="@+id/texte_alpes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="40sp"
         android:text="@string/alpes"
-        android:textColor="#2196F3"
+        android:textColor="#0B63AA"
+        android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/spinner_jours3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.194" />
+        app:layout_constraintVertical_bias="0.266" />
 
     <TextView
         android:id="@+id/text_matin"
@@ -49,7 +50,7 @@
         android:layout_marginBottom="165dp"
         android:textStyle="bold"
         android:textSize="20dp"
-        android:textColor="#2196F3"
+        android:textColor="#0B63AA"
         android:text="@string/Matin"
         app:layout_constraintBottom_toBottomOf="@+id/cadre_matni"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,7 +65,7 @@
         android:layout_height="wrap_content"
         android:text="Après-midi"
         android:textStyle="bold"
-        android:textColor="#2196F3"
+        android:textColor="#0B63AA"
         android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/cadre_aprem"
         app:layout_constraintEnd_toEndOf="parent"
