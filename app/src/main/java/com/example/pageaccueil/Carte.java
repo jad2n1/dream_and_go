@@ -47,18 +47,6 @@ getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
                     Carte_CoteAzur.setVisibility(View.INVISIBLE);
 
 
-
-
-
-                    Bouton_retour.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            // ouverture de l'activité
-
-
-                            finish();
-                        }
-                    });
                     break;
                 case "Atlantqiue":
                     Carte.setVisibility(View.INVISIBLE);
@@ -66,26 +54,11 @@ getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
 
                     Carte_Atlantique=findViewById(R.id.imageView_Atlantique_carte);
 
-                    Bouton_retour.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            // ouverture de l'activité
-                            Intent intent = new Intent(Carte.this, page_Atlantique.class);
-                            startActivity(intent);
-                            finish();
-                        }
-                    });
-                   // break;
+
+                    break;
                 case "Paris":
 
-                    Bouton_retour.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            // ouverture de l'activité
 
-                            finish();
-                        }
-                    });
                     break;
                 case "Cote d'Azur":
                     Carte.setVisibility(View.INVISIBLE);
@@ -95,19 +68,20 @@ getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
 
                     Bouton_retour = (Button) findViewById(R.id.btn_retour_carte);
 
-                    Bouton_retour.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            // ouverture de l'activité
 
-                            finish();
-                        }
-                    });
                     break;
 
 
     }
 }
 
-
+        Bouton_retour.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // ouverture de l'activité
+                //    Intent intent = new Intent(Carte.this, page_Atlantique.class);
+                //  startActivity(intent);
+                finish();
+            }
+        });
     }}
