@@ -51,7 +51,7 @@ getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
                     break;
 
                 case "Paris":
-                    Carte_Paris=findViewById(R.id.imageView_CoteAzur_carte);
+                    Carte_Paris=findViewById(R.id.imageView_Paris_carte);
                     Carte_Paris.setVisibility(View.VISIBLE);
                     break;
 
@@ -59,10 +59,7 @@ getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
 
                     Carte_CoteAzur=findViewById(R.id.imageView_CoteAzur_carte);
                     Carte_CoteAzur.setVisibility(View.VISIBLE);
-
                     break;
-
-
     }
 }
 

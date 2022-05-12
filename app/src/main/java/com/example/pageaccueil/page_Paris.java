@@ -82,8 +82,8 @@ public class page_Paris extends AppCompatActivity{
             public void onClick(View view) {
                 // ouverture de l'activité
                 Intent intent = new Intent(page_Paris.this, Carte.class);
-                String carte="carte_Paris";
-                intent.putExtra("nom_cartes",carte);
+                String carte="Paris";
+                intent.putExtra("carte",carte);
                 startActivity(intent);
             }
         });
