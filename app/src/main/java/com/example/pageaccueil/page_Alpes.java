@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class page_Alpes extends AppCompatActivity{
     Button Bouton_Alpes_retour;
-    private String carte;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,15 +69,17 @@ public class page_Alpes extends AppCompatActivity{
         });
 
 // Bouton pour accéder à la carte
-
+        String carte = null;
+        Btn_Carte = ( Button ) findViewById(R.id.btn_carte);
+        Button finalBtn_Carte = Btn_Carte;
         Btn_Carte.setOnClickListener(new View.OnClickListener() {
                 @Override
                                          public void onClick(View view) {
                                              // ouverture de l'activité
                                              Intent intent = new Intent(page_Alpes.this, Carte.class);
                                             // String carte="carte_Alpes";
-                                             intent.putExtra("carte_Alpes", carte  );
-                                             startActivity(intent);
+                                            intent.putExtra("carte_Alpes", finalBtn_Carte.getText().toString());
+                                            startActivity(intent);
                                          }
                                      });
 
