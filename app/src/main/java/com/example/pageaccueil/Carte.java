@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.Switch;
 import android.widget.TextView;
 
 public class Carte extends AppCompatActivity {
@@ -24,24 +25,27 @@ getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
       //  Carte_Alpes = ( Button ) findViewById(R.id.btn_carte);
         TextView  Nom_destination = (TextView) findViewById(R.id.nom_destination);
             Bundle extra=getIntent().getExtras();
-            String carte = extra.getString("carte_Alpes");
-
-//Intent a=new Intent(Carte.this, page_Alpes.class);
-//a.putExtra("carte_Alpes", )
-//String carte = extra.getString("nom_cartes");
+            String finalBtn_Carte = extra.getString("carte");
 
 
-        if (carte.equals("carte_Alpes")){
-            Nom_destination.setText("Alpes");
-        }
-        if (carte.equals("Atlantique")){
-            Nom_destination.setText("Atlantique");
-        }
-        if (carte.equals("Paris")){
-            Nom_destination.setText("Paris");
-        }
-else {
-            Nom_destination.setText("non");
-        }
+// affichage dans le text view le nom de la destination
+            Nom_destination.setText(finalBtn_Carte);
+        if(Nom_destination!= null) {
+
+            switch (Nom_destination.getText().toString()){
+                case "Alpes":
+
+                    break;
+                case "Atlantqiue":
+
+                    break;
+                case "Paris":
+
+                    break;
+                case "4":
+
+                    break;
+
+
     }
 }

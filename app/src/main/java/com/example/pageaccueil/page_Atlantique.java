@@ -76,8 +76,8 @@ public class page_Atlantique extends AppCompatActivity{
             public void onClick(View view) {
                 // ouverture de l'activité
                 Intent intent = new Intent(page_Atlantique.this, Carte.class);
-                String carte="carte_Atlantique";
-                intent.putExtra("nom_cartes",carte);
+                String carte="Atlantique";
+                intent.putExtra("carte",carte);
                 startActivity(intent);
             }
         });

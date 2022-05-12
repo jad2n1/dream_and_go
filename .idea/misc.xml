@@ -5,19 +5,19 @@
       <map>
         <entry key="..\:/Users/jeann/Documents/2A/S4/CPO 3.0/app/src/main/res/layout/activity_carte.xml" value="0.25" />
         <entry key="..\:/Users/jeann/Documents/2A/S4/CPO 3.0/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/jeann/Documents/2A/S4/CPO 3.0/app/src/main/res/layout/activity_splash.xml" value="0.234375" />
         <entry key="..\:/Users/jeann/Documents/2A/S4/CPO 3.0/app/src/main/res/layout/alpes_page.xml" value="0.2" />
+        <entry key="..\:/Users/jeann/Documents/2A/S4/CPO 3.0/app/src/main/res/layout/atlantique_page.xml" value="0.25" />
         <entry key="..\:/Users/jeann/Documents/2A/S4/CPO 3.0/app/src/main/res/layout/choix_destination.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/jeann/Documents/2A/S4/CPO 3.0/app/src/main/res/layout/coteazur_page.xml" value="0.25" />
         <entry key="..\:/Users/jeann/Documents/2A/S4/CPO 3.0/app/src/main/res/layout/paris_page.xml" value="0.2" />
         <entry key="app/src/main/res/font/alex_brush.xml" value="0.3148148148148148" />
         <entry key="app/src/main/res/layout/activity_ecrans_test.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3158004760742187" />
-        <entry key="app/src/main/res/layout/alpes_page.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/atlantique_page.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/choix_destination.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/coteazur_page.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/alpes_page.xml" value="0.2740740740740741" />
+        <entry key="app/src/main/res/layout/choix_destination.xml" value="0.20257110595703093" />
+        <entry key="app/src/main/res/layout/coteazur_page.xml" value="0.2740740740740741" />
         <entry key="app/src/main/res/layout/paris_page.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.17" />
-        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.17" />
       </map>
     </option>
   </component>
