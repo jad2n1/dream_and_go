@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:visibility="visible"
     tools:context=".Carte">
 
     <TextView
@@ -22,7 +23,21 @@
         android:id="@+id/imageView_essaie_carte"
         android:layout_width="315dp"
         android:layout_height="358dp"
-        app:srcCompat="@drawable/essaie_carte"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="210dp" />
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/essaie_carte" />
+
+    <ImageView
+        android:id="@+id/imageView_CoteAzur_carte"
+        android:layout_width="315dp"
+        android:layout_height="358dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
 </androidx.constraintlayout.widget.ConstraintLayout>
