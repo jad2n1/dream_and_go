@@ -23,7 +23,7 @@
         android:id="@+id/imageView_cartw_chamonix"
         android:layout_width="315dp"
         android:layout_height="358dp"
-        android:visibility="visible"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,7 +34,7 @@
         android:id="@+id/imageView_CoteAzur_carte"
         android:layout_width="315dp"
         android:layout_height="358dp"
-        android:visibility="visible"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,12 +45,23 @@
         android:id="@+id/imageView_Atlantique_carte"
         android:layout_width="315dp"
         android:layout_height="358dp"
-        android:visibility="visible"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/carte_atlantique" />
+
+    <ImageView
+        android:id="@+id/imageView_Paris_carte"
+        android:layout_width="315dp"
+        android:layout_height="358dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/carte_paris" />
 
     <Button
         android:id="@+id/btn_retour_carte"
