@@ -27,7 +27,7 @@ public class page_Alpes extends AppCompatActivity{
         TextView Text_Ap = (TextView) findViewById(R.id.cadre_aprem);
         Button Btn_Carte=(Button) findViewById(R.id.btn_carte);
 
-// 2) creation d’un ArrayAdapter à partir de tab_pokemon et mise en forme par defaut
+// 2) creation d’un ArrayAdapter à partir de Jours et mise en forme par defaut
         ArrayAdapter<CharSequence> monAdapter = ArrayAdapter.createFromResource (this,
                 R.array.Jours, android.R.layout.simple_spinner_item);
 
