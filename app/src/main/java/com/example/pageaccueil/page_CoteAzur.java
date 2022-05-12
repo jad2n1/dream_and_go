@@ -27,7 +27,7 @@ public class page_CoteAzur extends AppCompatActivity {
         // 1) creation d’un objet-reference  spinner vers le spinner de l’activite
         Spinner monSpinner4 = (Spinner) findViewById(R.id.spinner_jours4);
 
-// 2) creation d’un ArrayAdapter à partir de tab_pokemon et mise en forme par defaut
+// 2) creation d’un ArrayAdapter à partir de Jours et mise en forme par defaut
         ArrayAdapter<CharSequence> monAdapter = ArrayAdapter.createFromResource (this,
                 R.array.Jours, android.R.layout.simple_spinner_item);
 

@@ -27,7 +27,7 @@ public class page_Atlantique extends AppCompatActivity{
         TextView Text_Mat_Atlantique = (TextView) findViewById(R.id.cadre_matin_Atlantique);
         TextView Text_Ap_Atlantique = (TextView) findViewById(R.id.cadre_aprem_Atlantique);
         Button Btn_Carte=(Button) findViewById(R.id.btn_carte_Atlantique);
-// 2) creation d’un ArrayAdapter à partir de tab_pokemon et mise en forme par defaut
+// 2) creation d’un ArrayAdapter à partir de Jours et mise en forme par defaut
         ArrayAdapter<CharSequence> monAdapter = ArrayAdapter.createFromResource (this,
                 R.array.Jours, android.R.layout.simple_spinner_item);
 
