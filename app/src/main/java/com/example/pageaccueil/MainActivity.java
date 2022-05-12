@@ -24,13 +24,14 @@ public class MainActivity extends AppCompatActivity {
         boutonDemarrer = (Button) findViewById(R.id.bienvenue);
 
         boutonDemarrer.setOnClickListener(new View.OnClickListener() {
-            //On place un écouteur sur le bouton pour savoir quand est ce qu'on aura cliquer dessus
+            // ajout d'un écouteur sur le bouton qui permet de lancer la page destination une fois
+            // le bouton cliqué
+
             @Override
             public void onClick(View view) {
-                //Lorsqu'on clique :
-                //Ouverture de l'activité Page Select, qui corresponds au choix de l'alcool principal du cocktail.
+                //
                 Intent intent = new Intent(MainActivity.this, choix_destination.class);
-                startActivity(intent);
+                startActivity(intent); // ouverture de la page choic destinations
 
             }
         });
