@@ -11,8 +11,8 @@ import android.widget.Switch;
 import android.widget.TextView;
 
 public class Carte extends AppCompatActivity {
- Button Carte_Alpes;
-    ImageView Carte, Carte_CoteAzur;
+ Button Bouton_retour;
+    ImageView Carte, Carte_CoteAzur, Carte_Atlantique;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +31,8 @@ getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
 
 
 // affichage dans le text view le nom de la destination
+        Carte= findViewById(R.id.imageView_essaie_carte);
+        Bouton_retour = (Button) findViewById(R.id.btn_retour_carte);
 
             Nom_destination.setText(finalBtn_Carte);
 
@@ -38,23 +40,74 @@ getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
 
             switch (Nom_destination.getText().toString()){
                 case "Alpes":
-                    Carte= findViewById(R.id.imageView_essaie_carte);
+
                     //Carte.setImageResource(R.drawable.essaie_carte);
                    // Carte.setVisibility(View.VISIBLE);
+                    Carte_Atlantique.setVisibility(View.INVISIBLE);
                     Carte_CoteAzur.setVisibility(View.INVISIBLE);
 
+
+
+
+
+                    Bouton_retour.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            // ouverture de l'activité
+
+
+                            finish();
+                        }
+                    });
                     break;
                 case "Atlantqiue":
                     Carte.setVisibility(View.INVISIBLE);
-                    Carte_CoteAzur=findViewById(R.id.imageView_CoteAzur_carte);
-                    break;
+                    Carte_CoteAzur.setVisibility(View.INVISIBLE);
+
+                    Carte_Atlantique=findViewById(R.id.imageView_Atlantique_carte);
+
+                    Bouton_retour.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            // ouverture de l'activité
+                            Intent intent = new Intent(Carte.this, page_Atlantique.class);
+                            startActivity(intent);
+                            finish();
+                        }
+                    });
+                   // break;
                 case "Paris":
 
+                    Bouton_retour.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            // ouverture de l'activité
+
+                            finish();
+                        }
+                    });
                     break;
                 case "Cote d'Azur":
+                    Carte.setVisibility(View.INVISIBLE);
+                    Carte_Atlantique.setVisibility(View.INVISIBLE);
 
+                    Carte_CoteAzur=findViewById(R.id.imageView_CoteAzur_carte);
+
+                    Bouton_retour = (Button) findViewById(R.id.btn_retour_carte);
+
+                    Bouton_retour.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            // ouverture de l'activité
+
+                            finish();
+                        }
+                    });
                     break;
 
 
     }
-}}}
+}
+
+
+    }}
