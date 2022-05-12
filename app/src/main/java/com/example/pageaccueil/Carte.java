@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class Carte extends AppCompatActivity {
  Button Bouton_retour;
-    ImageView Carte, Carte_CoteAzur, Carte_Atlantique;
+    ImageView Carte, Carte_CoteAzur, Carte_Atlantique, Carte_Paris;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,38 +40,26 @@ getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
 
             switch (Nom_destination.getText().toString()){
                 case "Alpes":
-
-                    //Carte.setImageResource(R.drawable.essaie_carte);
-                   // Carte.setVisibility(View.VISIBLE);
-                    Carte_Atlantique.setVisibility(View.INVISIBLE);
-                    Carte_CoteAzur.setVisibility(View.INVISIBLE);
-
-
+                    Carte.setImageResource(R.drawable.carte_chamonix);
+                    Carte.setVisibility(View.VISIBLE);
                     break;
-                case "Atlantqiue":
-                    Carte.setVisibility(View.INVISIBLE);
-                    Carte_CoteAzur.setVisibility(View.INVISIBLE);
+
+                case "Atlantique":
 
                     Carte_Atlantique=findViewById(R.id.imageView_Atlantique_carte);
-
-
+                    Carte_Atlantique.setVisibility(View.VISIBLE);
                     break;
+
                 case "Paris":
-
-
+                    Carte_Paris=findViewById(R.id.imageView_Paris_carte);
+                    Carte_Paris.setVisibility(View.VISIBLE);
                     break;
+
                 case "Cote d'Azur":
-                    Carte.setVisibility(View.INVISIBLE);
-                    Carte_Atlantique.setVisibility(View.INVISIBLE);
 
                     Carte_CoteAzur=findViewById(R.id.imageView_CoteAzur_carte);
-
-                    Bouton_retour = (Button) findViewById(R.id.btn_retour_carte);
-
-
+                    Carte_CoteAzur.setVisibility(View.VISIBLE);
                     break;
-
-
     }
 }
 
@@ -79,8 +67,6 @@ getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
             @Override
             public void onClick(View view) {
                 // ouverture de l'activité
-                //    Intent intent = new Intent(Carte.this, page_Atlantique.class);
-                //  startActivity(intent);
                 finish();
             }
         });
