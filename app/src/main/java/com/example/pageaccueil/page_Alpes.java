@@ -67,21 +67,21 @@ public class page_Alpes extends AppCompatActivity{
 
             }
 
-            //monSpinner3.setOnItemClickListener(new AdapterView.OnItemClickListener() {
         });
 
 // Bouton pour accéder à la carte
-        String carte ="Alpes";
+
+
         Btn_Carte = ( Button ) findViewById(R.id.btn_carte);
-        Button finalBtn_Carte = Btn_Carte;
         Btn_Carte.setOnClickListener(new View.OnClickListener() {
                 @Override
                                          public void onClick(View view) {
                                              // ouverture de l'activité
-                                             Intent intent = new Intent(page_Alpes.this, Carte.class);
-                                            // String carte="carte_Alpes";
-                                            //intent.putExtra("carte", finalBtn_Carte.getText().toString());
+
+                                            String carte ="Alpes";
+                                            Intent intent = new Intent(page_Alpes.this, Carte.class);
                                             intent.putExtra("carte", carte);
+                                            // envoie le contenu du string carte grace a la clà carte
                                             startActivity(intent);
                                          }
                                      });
