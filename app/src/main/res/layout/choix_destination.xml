@@ -81,7 +81,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="88dp"
-        android:fontFamily="@font/aclonica"
+        android:fontFamily="@font/carter_one"
         android:text="Choix destination"
         android:textColor="#500E1B"
         android:textSize="40sp"
