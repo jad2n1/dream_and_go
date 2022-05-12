@@ -29,20 +29,23 @@ getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
             Bundle extra=getIntent().getExtras();
             String finalBtn_Carte = extra.getString("carte"); // recoit la valeur de "carte"
         // à partir des pages Paris ou Atlantique ou Alpes ou cotes d'Azur
-        // affichage dans le text view le nom de la destination grace au nom recut
 
-            Nom_destination.setText(finalBtn_Carte);
+
+            Nom_destination.setText(finalBtn_Carte);   // affichage dans le text view le nom de la
+                                                            // destination grace au nom recut
+
 
         if(Nom_destination!= null) {
 
+
             switch (Nom_destination.getText().toString()){
                 case "Alpes":
-                    Carte.setImageResource(R.drawable.carte_chamonix); // l'image Carte
+                    Carte=findViewById(R.id.imageView_cartw_chamonix); // l'image Carte
                     // qui correspond à la carte des Alpes est récupérée grace à son id dans le
-                    // xml (touites les images "cartes_" sont invisbles)
+                    // xml (toutes les images "cartes_" sont invisbles)
                     Carte.setVisibility(View.VISIBLE); // puis la carte en question est rendu visible
                     break; // pour sortir du switch
-// meme fonctionnement pour les autres cas
+    // meme fonctionnement pour les autres cas
                 case "Atlantique":
 
                     Carte_Atlantique=findViewById(R.id.imageView_Atlantique_carte);
