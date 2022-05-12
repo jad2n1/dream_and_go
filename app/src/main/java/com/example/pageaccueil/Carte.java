@@ -44,7 +44,7 @@ getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
                     Carte.setVisibility(View.VISIBLE);
                     break;
 
-                case "Atlantqiue":
+                case "Atlantique":
 
                     Carte_Atlantique=findViewById(R.id.imageView_Atlantique_carte);
                     Carte_Atlantique.setVisibility(View.VISIBLE);
