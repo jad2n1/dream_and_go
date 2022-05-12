@@ -80,8 +80,8 @@ public class page_CoteAzur extends AppCompatActivity {
             public void onClick(View view) {
                 // ouverture de l'activité
                 Intent intent = new Intent(page_CoteAzur.this, Carte.class);
-                String carte="carte_coteAzur";
-                intent.putExtra("nom_cartes",carte);
+                String carte="Cote d'Azur";
+                intent.putExtra("carte",carte);
                 startActivity(intent);
             }
         });

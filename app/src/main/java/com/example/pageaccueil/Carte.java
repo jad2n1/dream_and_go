@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class Carte extends AppCompatActivity {
  Button Carte_Alpes;
-    ImageView Carte;
+    ImageView Carte, Carte_CoteAzur;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,16 +40,18 @@ getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
                 case "Alpes":
                     Carte= findViewById(R.id.imageView_essaie_carte);
                     //Carte.setImageResource(R.drawable.essaie_carte);
-                    Carte.setVisibility(View.INVISIBLE);
+                   // Carte.setVisibility(View.VISIBLE);
+                    Carte_CoteAzur.setVisibility(View.INVISIBLE);
+
                     break;
                 case "Atlantqiue":
                     Carte.setVisibility(View.INVISIBLE);
-
+                    Carte_CoteAzur=findViewById(R.id.imageView_CoteAzur_carte);
                     break;
                 case "Paris":
 
                     break;
-                case "4":
+                case "Cote d'Azur":
 
                     break;
 
