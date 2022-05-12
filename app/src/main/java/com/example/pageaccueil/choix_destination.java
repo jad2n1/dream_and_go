@@ -17,7 +17,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 
 public class choix_destination extends AppCompatActivity {
-    // creation des references boutons que je vais trouver dans le layout
+    // creation des references boutons
     // déclaration, sans initialisation
     Button Bouton_Alpes;
     Button Bouton_Atlantique;
@@ -26,22 +26,20 @@ public class choix_destination extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        /* les instructions "classiques" : a la création d'une activité, on appelle le constructeur
-        parent et on charge le calque associé */
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.choix_destination);
 
         getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
 
         // association de nos references avec les objets du layout
+
         Bouton_Alpes = ( Button ) findViewById(R.id.btn_Alpes);
         Bouton_Atlantique = (Button) findViewById(R.id.btn_Atlantique);
         Bouton_paris = (Button) findViewById(R.id.btn_paris);
         Bouton_cotedazur = (Button) findViewById(R.id.btn_cotedazur);
 
-        // ajout des écouteurs : quand on va cliqueur sur un bouton on va charger l'activité associée
-        // ajout de l'écouteur sur Bouton_Alpes
+        // ajout des écouteurs qui va permettre de lancer la page associée lorsque le bouton en
+        // question est cliqué
 
         Bouton_Alpes.setOnClickListener(new OnClickListener() {
             @Override
