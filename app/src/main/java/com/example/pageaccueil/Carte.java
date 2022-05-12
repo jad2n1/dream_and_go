@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Switch;
@@ -30,15 +31,19 @@ getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
 
 
 // affichage dans le text view le nom de la destination
+
             Nom_destination.setText(finalBtn_Carte);
+
         if(Nom_destination!= null) {
 
             switch (Nom_destination.getText().toString()){
                 case "Alpes":
                     Carte= findViewById(R.id.imageView_essaie_carte);
-                    Carte.setImageResource(R.drawable.essaie_carte);
+                    //Carte.setImageResource(R.drawable.essaie_carte);
+                    Carte.setVisibility(View.INVISIBLE);
                     break;
                 case "Atlantqiue":
+                    Carte.setVisibility(View.INVISIBLE);
 
                     break;
                 case "Paris":
