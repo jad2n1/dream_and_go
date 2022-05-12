@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/fond_first"
-        android:layout_width="467dp"
+        android:layout_width="400dp"
         android:layout_height="789dp"
         android:scaleType="centerCrop"
         android:src="@drawable/dreamandgofirst"
@@ -22,10 +22,9 @@
         android:layout_height="200dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintHorizontal_bias="0.388"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fond_first"
-        app:layout_constraintVertical_bias="0.499"
         app:lottie_autoPlay="true"
         app:lottie_rawRes="@raw/traveller" />
 
