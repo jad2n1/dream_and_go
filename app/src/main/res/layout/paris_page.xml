@@ -21,9 +21,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/retour"
+        app:backgroundTint="#FF443a"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.251"
+        app:layout_constraintHorizontal_bias="0.103"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_jours"
         app:layout_constraintVertical_bias="0.934" />
@@ -33,32 +34,36 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/carte"
+        app:backgroundTint="#FF443a"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintHorizontal_bias="0.882"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_jours"
         app:layout_constraintVertical_bias="0.934" />
+
 
     <TextView
         android:id="@+id/texte_paris"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/carter_one"
         android:text="@string/paris"
+        android:textColor="#500E1B"
         android:textSize="40sp"
-        android:textColor="#0B63AA"
         app:layout_constraintBottom_toTopOf="@+id/spinner_jours"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/txt_matin_Atlantique"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Matin"
-        android:textColor="#0B63AA"
+        android:textColor="#350A07"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -73,7 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Après-midi"
-        android:textColor="#0B63AA"
+        android:textColor="#040D15"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
