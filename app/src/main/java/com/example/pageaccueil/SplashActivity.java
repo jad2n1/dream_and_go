@@ -20,6 +20,7 @@ Handler montimer;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
+        getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
 
 
         logo = findViewById(R.id.fond_first);
