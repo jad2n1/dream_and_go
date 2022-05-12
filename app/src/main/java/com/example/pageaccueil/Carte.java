@@ -31,7 +31,7 @@ getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
 
 
 // affichage dans le text view le nom de la destination
-        Carte= findViewById(R.id.imageView_essaie_carte);
+        Carte= findViewById(R.id.imageView_cartw_chamonix);
         Bouton_retour = (Button) findViewById(R.id.btn_retour_carte);
 
             Nom_destination.setText(finalBtn_Carte);
