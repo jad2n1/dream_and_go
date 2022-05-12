@@ -38,7 +38,7 @@ public class page_Paris extends AppCompatActivity{
         TextView Text_Aprem_Paris = (TextView) findViewById(R.id.cadre_aprem_Paris);
         Button Btn_Carte_Paris=(Button) findViewById(R.id.btn_carte_Paris);
 
-        // 2) creation d’un ArrayAdapter à partir de tab_pokemon et mise en forme par defaut
+        // 2) creation d’un ArrayAdapter à partir de Jours et mise en forme par defaut
         ArrayAdapter<CharSequence> monAdapter = ArrayAdapter.createFromResource (this,
                 R.array.Jours, android.R.layout.simple_spinner_item);
 
