@@ -5,12 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Switch;
 import android.widget.TextView;
 
 public class Carte extends AppCompatActivity {
  Button Carte_Alpes;
-
+    ImageView Carte;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +35,8 @@ getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
 
             switch (Nom_destination.getText().toString()){
                 case "Alpes":
-
+                    Carte= findViewById(R.id.imageView_essaie_carte);
+                    Carte.setImageResource(R.drawable.essaie_carte);
                     break;
                 case "Atlantqiue":
 
@@ -48,4 +50,4 @@ getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
 
 
     }
-}
+}}}

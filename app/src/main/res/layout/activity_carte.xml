@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/nom_destination"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="130dp"
+        android:layout_height="83dp"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -17,4 +17,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.098" />
+
+    <ImageView
+        android:id="@+id/imageView_essaie_carte"
+        android:layout_width="315dp"
+        android:layout_height="358dp"
+        app:srcCompat="@drawable/essaie_carte"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="210dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
