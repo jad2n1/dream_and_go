@@ -50,7 +50,7 @@
         android:fontFamily="@font/carter_one"
         android:text="@string/paris"
         android:textColor="#500E1B"
-        android:textSize="40sp"
+        android:textSize="40dp"
         app:layout_constraintBottom_toTopOf="@+id/spinner_jours"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
