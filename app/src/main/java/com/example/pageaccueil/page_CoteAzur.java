@@ -22,6 +22,8 @@ public class page_CoteAzur extends AppCompatActivity {
         TextView Text_Ap_coteAzur = (TextView) findViewById(R.id.cadre_aprem_coteAzur);
         Button Btn_Carte_coteAzur=(Button) findViewById(R.id.btn_carte_CoteAzur);
 
+        getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
+
         // 1) creation d’un objet-reference  spinner vers le spinner de l’activite
         Spinner monSpinner4 = (Spinner) findViewById(R.id.spinner_jours4);
 

@@ -32,6 +32,8 @@ public class choix_destination extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.choix_destination);
 
+        getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
+
         // association de nos references avec les objets du layout
         Bouton_Alpes = ( Button ) findViewById(R.id.btn_Alpes);
         Bouton_Atlantique = (Button) findViewById(R.id.btn_Atlantique);

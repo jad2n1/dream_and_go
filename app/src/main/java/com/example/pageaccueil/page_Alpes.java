@@ -19,6 +19,8 @@ public class page_Alpes extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.alpes_page);
 
+        getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
+
         // 1) creation d’un objet-reference  spinner vers le spinner de l’activite
         Spinner monSpinner3 = (Spinner) findViewById(R.id.spinner_jours3);
         TextView Text_Mat = (TextView) findViewById(R.id.cadre_matni);

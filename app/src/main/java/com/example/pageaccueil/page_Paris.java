@@ -21,10 +21,16 @@ public class page_Paris extends AppCompatActivity{
     Button Bouton_Paris_retour;
 
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.paris_page);
+
+
+        getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
+
 
         // 1) creation d’un objet-reference  spinner vers le spinner de l’activite
         Spinner monSpinner = (Spinner) findViewById(R.id.spinner_jours);

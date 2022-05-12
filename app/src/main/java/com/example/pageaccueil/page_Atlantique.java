@@ -20,6 +20,8 @@ public class page_Atlantique extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.atlantique_page);
 
+        getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
+
         // 1) creation d’un objet-reference  spinner vers le spinner de l’activite
         Spinner monSpinner2 = (Spinner) findViewById(R.id.spinner_jours2);
         TextView Text_Mat_Atlantique = (TextView) findViewById(R.id.cadre_matin_Atlantique);

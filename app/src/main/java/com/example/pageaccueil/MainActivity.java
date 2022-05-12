@@ -17,6 +17,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        getSupportActionBar().hide(); // permet d'enlever la bar d'en haut
+
+
         boutonDemarrer = (Button) findViewById(R.id.bienvenue);
 
         boutonDemarrer.setOnClickListener(new View.OnClickListener() {
