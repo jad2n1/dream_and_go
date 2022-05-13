@@ -22,9 +22,6 @@
             android:name=".Carte"
             android:exported="false" />
         <activity
-            android:name=".ecrans_test"
-            android:exported="false" />
-        <activity
             android:name=".choix_destination"
             android:exported="false" />
         <activity
