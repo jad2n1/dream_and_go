@@ -57,7 +57,7 @@ public class page_CoteAzur extends AppCompatActivity {
                 if (choix_jours.equals("Jour3")){
                     Text_Mat_coteAzur.setText("Visite à pied de la vieille ville et du port de Nice le matin" +
                             ", prendre une glace dans le célèbre glacier Nicois Fenoccio");
-                    Text_Ap_coteAzur.setText("l’après-midi sur la plage ou faire du shopping. Profiter du coucher de soleil en prenant l’apéro " +
+                    Text_Ap_coteAzur.setText("L’après-midi sur la plage ou faire du shopping. Profiter du coucher de soleil en prenant l’apéro " +
                             "sur le rooftop du Méridien sur la promenade des Anglais.");
                 }
 
